@@ -1,0 +1,43 @@
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 152px;
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    input {
+      height: 50px;
+      margin-bottom: 25px;
+      width: 80%;
+      border-radius: 4px;
+      text-align: left;
+    }
+    input[type="text"] {
+      padding-left: 10px;
+    }
+    input[type="textarea"] {
+      height: 100px;
+      padding-left: 10px;
+    }
+    input[type="button"] {
+      background-color: rgb(101, 67, 34);
+      color: black;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
